@@ -1,1 +1,31 @@
 
+
+<head>
+	<title>Huga's Luma3DS Builds</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="jquery-latest.js"></script> 
+	<script type="text/javascript" src="jquery.tablesorter.js"></script>
+	<script id="js">$(function() {
+	// initial sort set using sortList option
+	$(".table1").tablesorter({
+		theme : 'blue',
+		// sort on the first column and second column in ascending order
+		sortList: [[0,0],[1,0]]
+	});
+	// initial sort set using data-sortlist attribute (see HTML below)
+	$(".table2").tablesorter({
+		theme : 'blue'
+	});
+});</script>
+</head>
+<body>
+<div class="main">
+<h1>Comming Soon^TM</h1>
+<p><i>.</i></p>
+<p><i>.</i></p>
+<p><i>.</i></p>
+<table class="table2" data-sortlist="[[0,0],[2,0]]">
+			<p><i>">e</a>
+	<p><i>"link"></a>
+	<p><i>"link"></a>
